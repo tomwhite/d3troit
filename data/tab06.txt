@@ -1,0 +1,65 @@
+Table 6.  Population of the 90 Urban Places:  1830
+
+Source:  U.S. Bureau of the Census
+Internet Release date:  June 15, 1998
+
+--------------------------------------------------------------------------------------------------------------- 
+Rank | Place                             | Population || Rank | Place                             | Population
+--------------------------------------------------------------------------------------------------------------- 
+   1   New York city, NY *................    202,589      51   Warwick town, RI...................      5,529
+   2   Baltimore city, MD.................     80,620      52   Dover town, NH.....................      5,449
+   3   Philadelphia city, PA *............     80,462      53   Hudson city, NY....................      5,392
+   4   Boston city, MA *..................     61,392      54   Roxbury town, MA *.................      5,247
+   5   New Orleans city, LA *.............     46,082      55   Marblehead town, MA................      5,149
+   6   Charleston city, SC................     30,289      56   Middleborough town, MA.............      5,008
+   7   Northern Liberties district, PA *..     28,872      57   St. Louis city, MO.................      4,977
+   8   Cincinnati city, OH................     24,831      58   Plymouth town, MA..................      4,758
+   9   Albany city, NY....................     24,209      59   Lynchburg town, VA.................      4,630
+  10   Southwark district, PA *...........     20,581      60   Andover town, MA...................      4,530
+                                                      
+  11   Washington city, DC *..............     18,826      61   Frederick town, MD.................      4,427
+  12   Providence town, RI *..............     16,833      62   New London city, CT................      4,335
+  13   Richmond city, VA..................     16,060      63   Harrisburg borough, PA.............      4,312
+  14   Salem town, MA.....................     13,895      64   Schenectady city, NY...............      4,268
+  15   Kensington district, PA *..........     13,394      65   Danvers town, MA...................      4,228
+  16   Portland town, ME..................     12,598      66   York borough, PA...................      4,216
+  17   Pittsburgh city, PA *..............     12,568      67   Worcester town, MA.................      4,173
+  18   Brooklyn town, NY *................     12,406      68   Fall River town, MA................      4,158
+  19   Troy city, NY......................     11,556      69   Dorchester town, MA *..............      4,074
+  20   Spring Garden district, PA *.......     11,140      70   Beverly town, MA...................      4,073
+                                                      
+  21   Newark township, NJ................     10,953      71   Trenton city, NJ...................      3,925
+  22   Louisville city, KY................     10,341      72   New Bern town, NC..................      3,796
+  23   New Haven city, CT.................     10,180      73   Wilmington town, NC................      3,791
+  24   Norfolk borough, VA................      9,814      74   Carlisle borough, PA...............      3,707
+  25   Rochester town, NY *...............      9,207      75   Easton borough, PA.................      3,529
+  26   Charlestown town, MA *.............      8,783      76   Elizabeth borough, NJ..............      3,455
+  27   Buffalo town, NY *.................      8,668      77   Hagerstown town, MD................      3,371
+  28   Georgetown town, DC *..............      8,441      78   Columbia town, SC..................      3,310
+  29   Utica town, NY *...................      8,323      79   Fredericksburg town, VA............      3,308
+  30   Petersburg town, VA................      8,322      80   Mobile city, AL....................      3,194
+                                                      
+  31   Alexandria town, DC *..............      8,241      81   Norwich city, CT...................      3,135
+  32   Portsmouth town, NH................      8,026      82   Middletown city, CT *..............      3,123
+  33   Newport town, RI...................      8,010      83   Zanesville village, OH.............      3,094
+  34   Lancaster city, PA.................      7,704      84   Dayton town, OH....................      2,950
+  35   New Bedford town, MA...............      7,592      85   Steubenville village, OH...........      2,937
+  36   Gloucester town, MA................      7,510      86   Fayetteville town, NC..............      2,868
+  37   Savannah city, GA..................      7,303      87   Chillicothe city, OH...............      2,846
+  38   Nantucket town, MA.................      7,202      88   Allegheny borough, PA *............      2,801
+  39   Hartford city, CT..................      7,074      89   Natchez city, MS...................      2,789
+  40   Moyamensing township, PA *.........      6,822      90   Annapolis city, MD.................      2,623
+                                                      
+  41   Springfield town, MA...............      6,784
+  42   Augusta city, GA...................      6,710
+  43   Lowell town, MA....................      6,474
+  44   Newburyport town, MA...............      6,375
+  45   Lynn town, MA......................      6,138
+  46   Cambridge town, MA.................      6,072
+  47   Taunton town, MA...................      6,042
+  48   Lexington town, KY.................      6,026
+  49   Reading borough, PA................      5,856
+  50   Nashville city, TN.................      5,566
+--------------------------------------------------------------------------------------------------------------- 
+
+* See Notes for Individual Places.

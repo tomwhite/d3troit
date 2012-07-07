@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>d3troit - the rise and fall of the population of Detroit City</title>
+    <script type="text/javascript" src="queue.min.js"></script>
+    <script type="text/javascript" src="d3.v2.min.js"></script>
+    <style type="text/css">
+
+body {
+  font: 10px sans-serif;
+}
+
+h1 {
+  font: 300 32px Helvetica Neue;
+}
+
+text.title {
+    fill: #666666;
+    font: 300 32px Helvetica Neue;
+}
+
+#detroit rect {
+  fill: red;
+}
+
+.bar rect {
+  fill: steelblue;
+}
+
+.bar text.value {
+  fill: gray;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  fill: none;
+}
+
+.x.axis line {
+  stroke: #fff;
+  stroke-opacity: .8;
+}
+
+.y.axis path {
+  stroke: black;
+}
+
+    </style>
+  </head>
+  <body>
+    <h1>The rise and fall of the population of Detroit City</h1>
+    <script type="text/javascript">
+
+var n = 20; // number of cities to show
+
+var margin = {top: 30, right: 10, bottom: 10, left: 100},
+    width = 960 - margin.right - margin.left,
+    height = 30 * n - margin.top - margin.bottom;
+
+var format = d3.format(",.0f");
+
+var x = d3.scale.linear()
+    .range([0, width]);
+
+var y = d3.scale.ordinal()
+    .rangeRoundBands([0, height], .1);
+
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("top")
+    .tickSize(-height);
+
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left")
+    .tickSize(0);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var title = svg.append("text")
+  .attr("class", "title")
+  .attr("dy", ".71em")
+  .attr("transform", "translate(-100,-20)")
+  .text(1920);
+
+var alldata; // full set of data
+var data = {}; // data for year currently being displayed
+var dates = []; // date labels
+var tick = 0; // the index of the year currently being displayed
+
+function csv(year, callback) {
+  d3.csv("data/" + year + ".csv", function(csv) {
+    csv.forEach(function(d) { d.value = +d.value; });
+    csv.sort(function(a, b) { return b.value - a.value; });
+    csv.length = n; // limit to top-n
+    dates.push(year);
+    csv ? callback(null, csv) : callback("error", null);
+  });
+}
+
+queue()
+  .defer(csv, "1860")
+  .defer(csv, "1870")
+  .defer(csv, "1880")
+  .defer(csv, "1890")
+  .defer(csv, "1900")
+  .defer(csv, "1910")
+  .defer(csv, "1920")
+  .defer(csv, "1930")
+  .defer(csv, "1940")
+  .defer(csv, "1950")
+  .defer(csv, "1960")
+  .defer(csv, "1970")
+  .defer(csv, "1980")
+  .defer(csv, "1990")
+  .defer(csv, "2000")
+  .defer(csv, "2010")
+  .await(function(error, results) {
+    dates.sort();
+    console.log(dates);
+    alldata = results;
+    data = alldata[tick];
+
+    // Set the scale domain using the largest value in the dataset.
+    x.domain([0, 1000000 + d3.max(results, function(result) {
+      return d3.max(result, function(d) { return +d.value; })
+    })]);
+
+    svg.append("g")
+      .attr("class", "x axis")
+      .call(xAxis);
+
+    svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+
+    redraw();
+});
+
+setInterval(function() {
+  if (tick < dates.length - 1) {
+    tick++;
+    redraw();
+  }
+}, 1500);
+
+function redraw() {
+  var transitionDuration = 1500;
+
+  data = alldata[tick];
+
+  title.text(dates[tick]);
+  y.domain(data.map(function(d) { return d.name; }));
+
+  svg.selectAll("rect")
+    .data(data, function(d) { return d.name; })
+    .transition()
+      .duration(transitionDuration)
+    .attr("width", function(d) { return x(d.value); })
+    .attr("height", y.rangeBand());
+  
+  var bar = svg.selectAll("g.bar")
+    .data(data, function(d) { return d.name; })
+
+  var barEnter = bar.enter().append("g")
+      .attr("class", "bar")
+      .attr("id", function(d) { return d.name == "Detroit" ? "detroit" : null }) // Label Detroit bar
+      .attr("transform", function(d) { return "translate(0," + y(d.name) + ")"; });
+
+  barEnter.append("rect")
+      .attr("width", function(d) { return x(d.value); })
+      .attr("height", y.rangeBand());
+
+  barEnter.append("text")
+      .attr("class", "value")
+      .attr("x", function(d) { return x(d.value); })
+      .attr("y", y.rangeBand() / 2)
+      .attr("dx", 3)
+      .attr("dy", ".35em")
+      .attr("text-anchor", "start")
+      .text(function(d) { return format(d.value); });
+
+  d3.transition(bar.exit())
+      .remove();
+
+  bar.transition()
+      .duration(transitionDuration)
+    .attr("transform", function(d) { return "translate(0," + y(d.name) + ")"; });
+  
+  svg.selectAll("text.value")
+    .data(data, function(d) { return d.name; })
+    .transition()
+      .duration(transitionDuration)
+    .attr("x", function(d) { return x(d.value); })
+    .attr("y", y.rangeBand() / 2)
+    .attr("dx", 3)
+    .attr("dy", ".35em")
+    .attr("text-anchor", "start")
+    .text(function(d) { return format(d.value); });
+    
+  // update y axis label
+  svg.selectAll("g.y.axis")
+    .transition()
+      .duration(transitionDuration)
+    .attr("class", "y axis")
+    .call(yAxis);
+}
+    </script>
+  </body>
+</html>
