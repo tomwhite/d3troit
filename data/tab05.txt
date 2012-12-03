@@ -1,0 +1,65 @@
+Table 5.  Population of the 61 Urban Places:  1820
+
+Source:  U.S. Bureau of the Census
+Internet Release date:  June 15, 1998
+
+-------------------------------------------------------------------------------------------------------------------- 
+Rank | Place                             | Population || Rank | Place                                  | Population
+-------------------------------------------------------------------------------------------------------------------- 
+   1   New York city, NY *................    123,706      51   Fayetteville town, NC...................      3,532
+   2   Philadelphia city, PA *............     63,802      52   Elizabeth borough, NJ...................      3,515
+   3   Baltimore city, MD.................     62,738      53   Spring Garden district, PA *............      3,498
+   4   Boston town, MA *..................     43,298      54   New London city, CT.....................      3,330
+   5   New Orleans city, LA *.............     27,176      55   Harrisburg borough, PA..................      2,990
+   6   Charleston city, SC................     24,780      56   Norwich city, CT........................      2,983
+   7   Northern Liberties district, PA *..     19,678      57   Utica town, NY *........................      2,972
+   8   Southwark district, PA *...........     14,713      58   Carlisle borough, PA....................      2,908
+   9   Washington city, DC *..............     13,247      59   Raleigh city, NC........................      2,674
+  10   Salem town, MA.....................     12,731      60   Wilmington town, NC.....................      2,633
+                                                      
+  11   Albany city, NY....................     12,630      61   Middletown city, CT.....................      2,618
+  12   Richmond city, VA..................     12,067
+  13   Providence town, RI *..............     11,767
+  14   Cincinnati city, OH................      9,642
+  15   Portland town, ME..................      8,581
+  16   Norfolk borough, VA................      8,478
+  17   Alexandria town, DC *..............      8,218
+  18   Savannah city, GA..................      7,523
+  19   Georgetown town, DC *..............      7,360
+  20   Portsmouth town, NH................      7,327
+
+  21   Newport town, RI...................      7,319
+  22   Nantucket town, MA.................      7,266
+  23   Pittsburgh city, PA *..............      7,248
+  24   Brooklyn town, NY *................      7,175
+  25   New Haven city, CT.................      7,147
+  26   Kensington district, PA *..........      7,118
+  27   Newburyport town, MA...............      6,852
+  28   Petersburg town, VA................      6,690
+  29   Lancaster city, PA.................      6,633
+  30   Charlestown town, MA *.............      6,591
+
+  31   Gloucester town, MA................      6,384
+  32   Marblehead town, MA................      5,630
+  33   Hudson city, NY....................      5,310
+  34   Lexington town, KY *...............      5,279
+  35   Troy city, NY......................      5,264
+  36   Hartford city, CT..................      4,726
+  37   Middleborough town, MA.............      4,687
+  38   Taunton town, MA...................      4,520
+  39   Lynn town, MA......................      4,515
+  40   Plymouth town, MA..................      4,348
+
+  41   Reading borough, PA................      4,332
+  42   Beverly town, MA...................      4,283
+  43   Roxbury town, MA *.................      4,135
+  44   Louisville town, KY................      4,012
+  45   New Bedford town, MA...............      3,947
+  46   Trenton city, NJ...................      3,942
+  47   Schenectady city, NY...............      3,939
+  48   New Bern town, NC..................      3,663
+  49   Frederick town, MD.................      3,640
+  50   York borough, PA...................      3,545
+------------------------------------------------------------------------------------------------------------------- 
+
+* See Notes for Individual Places.

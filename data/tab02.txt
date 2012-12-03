@@ -1,0 +1,36 @@
+Table 2.  Population of the 24 Urban Places:  1790
+
+Source:  U.S. Bureau of the Census
+Internet Release date:  June 15, 1998
+
+-------------------------------------------------------------- 
+Rank   | Place                                   | Population
+--------------------------------------------------------------
+   1     New York city, NY *.....................      33,131
+   2     Philadelphia city, PA *.................      28,522
+   3     Boston town, MA *.......................      18,320
+   4     Charleston city, SC.....................      16,359
+   5     Baltimore town, MD......................      13,503
+   6     Northern Liberties township, PA *.......       9,913
+   7     Salem town, MA..........................       7,921
+   8     Newport town, RI........................       6,716
+   9     Providence town, RI *...................       6,380
+ 10t     Marblehead town, MA.....................       5,661
+ 10t     Southwark district, PA *................       5,661
+
+  12     Gloucester town, MA.....................       5,317
+  13     Newburyport town, MA....................       4,837
+  14     Portsmouth town, NH.....................       4,720
+  15     Sherburne town (Nantucket), MA *........       4,620
+  16     Middleborough town, MA..................       4,526
+  17     New Haven city, CT *....................       4,487
+  18     Richmond city, VA.......................       3,761
+  19     Albany city, NY.........................       3,498
+  20     Norfolk borough, VA.....................       2,959
+  21     Petersburg town, VA.....................       2,828
+  22     Alexandria town, VA *...................       2,748
+  23     Hartford city, CT *.....................       2,683
+  24     Hudson city, NY.........................       2,584
+--------------------------------------------------------------
+
+* See Notes for Individual Places.

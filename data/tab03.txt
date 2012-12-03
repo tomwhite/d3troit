@@ -1,0 +1,47 @@
+Table 3.  Population of the 33 Urban Places:  1800
+
+Source:  U.S. Bureau of the Census
+Internet Release date:  June 15, 1998
+
+-------------------------------------------------------------- 
+Rank   | Place                                   | Population
+-------------------------------------------------------------- 
+   1     New York city, NY *.....................      60,515
+   2     Philadelphia city, PA *.................      41,220
+   3     Baltimore city, MD......................      26,514
+   4     Boston town, MA *.......................      24,937
+   5     Charleston city, SC.....................      18,824
+   6     Northern Liberties township, PA *.......      10,718
+   7     Southwark district, PA *................       9,621
+   8     Salem town, MA..........................       9,457
+   9     Providence town, RI *...................       7,614
+  10     Norfolk borough, VA.....................       6,926
+
+  11     Newport town, RI........................       6,739
+  12     Newburyport town, MA....................       5,946
+  13     Richmond city, VA.......................       5,737
+  14     Nantucket town, MA......................       5,617
+  15     Portsmouth town, NH.....................       5,339
+  16     Gloucester town, MA.....................       5,313
+ 17t     Albany city, NY.........................       5,289
+ 17t     Schenectady city, NY....................       5,289
+  19     Marblehead town, MA.....................       5,211
+  20     New London city, CT.....................       5,150
+
+  21     Savannah city, GA.......................       5,146
+  22     Alexandria town, DC *...................       4,971
+  23     Middleborough town, MA..................       4,458
+  24     New Bedford town, MA....................       4,361
+  25     Lancaster borough, PA...................       4,292
+  26     New Haven city, CT......................       4,049
+  27     Portland town, ME.......................       3,704
+  28     Hudson city, NY.........................       3,664
+  29     Hartford city, CT *.....................       3,523
+  30     Petersburg town, VA.....................       3,521
+
+  31     Washington city, DC *...................       3,210
+  32     Georgetown town, DC *...................       2,993
+  33     York borough, PA........................       2,503
+-------------------------------------------------------------- 
+
+* See Notes for Individual Places.
